@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/personal_website/'
   title: "AEGIS Lab",
   description: "Arthur's Advanced AI Solutions",
   themeConfig: {
