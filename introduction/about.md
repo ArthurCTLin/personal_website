@@ -1,34 +1,65 @@
-# About Arthur
+# About 
 
-## The Scientific Approach to AI
-With a background in **particle physics from National Taiwan University (NTU)**, my approach to Artificial Intelligence is rooted in the scientific method: rigorous observation, controlled experimentation, and an uncompromising demand for precision.
-
-I don't just build models; I engineer systems that must withstand the scrutiny of real-world data. To me, a high evaluation metric is only the beginning—true reliability is proven through exhaustive validation and cross-domain robustness.
+## The Vision
+I am a seasoned AI practitioner dedicated to developing **highly deployable and robust** intelligent solutions. With years of experience in R&D, I believe the true value of technology lies not in model complexity, but in its reliability and performance within demanding environments—whether in clinical diagnostic pipelines (**Medical AI**) or resource-constrained hardware (**Edge AI**).
 
 ---
 
-## Core Attributes
+## Core Competencies
+My professional journey is defined by a deep focus on three pillars of modern intelligence:
 
-### Precision & Integrity
-Beyond standard metrics, I place a heavy emphasis on **test dataset integrity** and edge-case validation. My experience in managing server infrastructure and adhering to **ISO 27001** security standards has instilled a "production-first" mindset, ensuring that every solution is secure, scalable, and stable.
-
-### Continuous Evolution (Kaggle & Beyond)
-In an era of pre-trained models, I believe in maintaining a deep understanding of the "under-the-hood" mechanics. I actively participate in **Kaggle** competitions to sharpen my fundamental training techniques, earning a **Medals in LLM-specific tasks**—proving my ability to adapt core Computer Vision expertise to the evolving landscape of Generative AI.
-
-### Cross-Disciplinary Problem Solving
-I bridge the gap between complex technical architectures and real-world stakeholders. My experience collaborating directly with **medical professionals (MDs)** has honed my ability to translate clinical needs into technical requirements. I thrive on self-driven learning, extending my reach from workstation-scale research to **Edge deployment (NVIDIA Jetson)** and **AI-driven Educational Systems**.
-
----
-
-## Technical Domain & Experience
-* **Computer Vision**: Specialist in multi-stage medical imaging pipelines.
-* **Large Language Models**: Retrieval-Augmented Generation (RAG) and Agentic workflows.
-* **Edge Intelligence**: On-device optimization for resource-constrained environments.
-* **System Operations**: Infrastructure management and ISO 27001 security compliance.
+* **Medical AI & Clinical Pipelines**
+    Designing multi-stage imaging architectures that bridge the gap between lab research and clinical benchmarks (consistently achieving evaluation metrics of task > 0.8).
+* **Edge Computing & On-Device AI**
+    Optimizing deep learning models for NVIDIA Jetson and other embedded systems, ensuring low-latency inference without compromising privacy.
+* **AI-Driven Education System**
+    As a long-time **private tutor**, I developed a passion for optimizing the learning process. This led to a specialized side-project: an **Intelligent Tutoring System** that uses adaptive learning paths to personalize student progress.
+* **Graph-Augmented Intelligence (Graph RAG)**
+    Leveraging Knowledge Graphs to ground Large Language Models, significantly reducing hallucinations and enhancing context-aware retrieval.
 
 ---
 
-## The AEGIS Studio
-**AEGIS** is my personal technical studio—a space where the rigor of physics meets the frontiers of AI. It represents my commitment to **Advanced Engineering** and **Goal-oriented Solutions**.
+## Competitive Data Science (Kaggle)
+Beyond engineering, I actively push the boundaries of algorithm performance in the global arena. My Kaggle achievements serve as a testament to my ability to solve complex, real-world data challenges under high-pressure competition.
 
-Every project documented here is a reflection of my personal pursuit of technical excellence and my journey in solving complex, real-world challenges.
+* **[MAP - Charting Student Math Misunderstandings]** | **Bronze Medal (Top 8%)**
+* **[ISIC 2024 - Skin Cancer Detection with 3D-TBP]** | **Bronze Medal (Top 7%)**
+* **[Learning Agency Lab - Automated Essay Scoring 2.0]** | **Bronze Medal (Top 9%)**
+* **[CSIRO - Image2Biomass Prediction]** | **Bronze Medal (Top 9%)**
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin-top: 25px; margin-bottom: 30px;">
+    <div style="flex: 1 1 calc(50% - 15px); max-width: calc(50% - 15px);">
+        <img src="/graphs/kaggle/biomass.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" alt="Kaggle Certification 1">
+    </div>
+    <div style="flex: 1 1 calc(50% - 15px); max-width: calc(50% - 15px);">
+        <img src="/graphs/kaggle/essay.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" alt="Kaggle Certification 2">
+    </div>
+    <div style="flex: 1 1 calc(50% - 15px); max-width: calc(50% - 15px);">
+        <img src="/graphs/kaggle/math.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" alt="Kaggle Certification 3">
+    </div>
+    <div style="flex: 1 1 calc(50% - 15px); max-width: calc(50% - 15px);">
+        <img src="/graphs/kaggle/skin_cancer.png" style="width: 100%; border-radius: 6px; box-shadow: 0 2px 8px rgba(0,0,0,0.15);" alt="Kaggle Certification 4">
+    </div>
+</div>
+
+---
+
+## Technical Milestones
+* **Multi-Stage Clinical Diagnosis**: Engineered a robust system for [Specific Domain], meeting rigorous medical standards.
+* **Edge-Native RL Systems**: Deployed reinforcement learning logic on-device for autonomous scheduling in offline environments.
+* **Hybrid Retrieval Architectures**: Built a seamless integration of Vector Databases and Graph Databases for advanced RAG systems.
+
+---
+
+## Background & Expertise
+* **Specializations**: Artificial Intelligence, Computer Vision, AI-Driven Education.
+* **Education**: [M.S. in Astrophysics]] | [National Taiwan University].
+* **Philosophy**: "Engineering rigor over mere code stacking." In AEGIS Lab, every line of code serves a **Goal-oriented Intelligence**.
+
+---
+
+## Get in Touch
+* [**Gmail**](arthur830119@gmail.com)
+* [**Github**](https://github.com/ArthurCTLin)
+* [**LinkedIn**](https://www.linkedin.com/in/chun-ting-lin-%E6%9E%97%E4%BF%8A%E5%BB%B7-7a58a0201/)
