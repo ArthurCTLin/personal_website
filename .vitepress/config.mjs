@@ -6,6 +6,10 @@ export default defineConfig({
   base: base,
   title: "AEGIS Lab",
   description: "Arthur's Advanced AI Solutions",
+  vite: {
+  	publicDir: '.vitepress/public'
+  },
+
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -22,7 +26,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
