@@ -60,6 +60,6 @@ Beyond engineering, I actively push the boundaries of algorithm performance in t
 ---
 
 ## Get in Touch
-* [**Gmail**](arthur830119@gmail.com)
+* [**Gmail**](mailto:arthur830119@gmail.com)
 * [**Github**](https://github.com/ArthurCTLin)
 * [**LinkedIn**](https://www.linkedin.com/in/chun-ting-lin-%E6%9E%97%E4%BF%8A%E5%BB%B7-7a58a0201/)
