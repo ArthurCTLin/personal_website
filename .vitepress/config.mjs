@@ -4,6 +4,7 @@ const base = process.env.NODE_ENV === 'production' ? '/personal_website/' : '/'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: base,
+  appearance: 'dark',
   title: "AEGIS Lab",
   description: "Arthur's Advanced AI Solutions",
   vite: {
