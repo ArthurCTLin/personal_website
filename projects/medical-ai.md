@@ -9,10 +9,10 @@
 ### Stage 1: The Segmentation Baseline
 In medical imaging, achieving perfect segmentation is rarely the end goal—it is the foundation. First stage uses **UNet with an EfficientNet-B7 backbone** to define the anatomical structures.
 
-<img src="/graphs/OA/segmentation_dices.png" style="width: 100%; border-radius: 8px" />
+<img src="./../.vitepress/public/graphs/OA/segmentation_dices.png" style="width: 100%; border-radius: 8px" />
 <p style="text-align: center; color: #888; font-size: 0.85em;">Detailed 5-Fold performance tracking for Stage 1 Segmentation.</p>
 
-<img src="/graphs/OA/segmentation_demo.png" style="width: 100%; border-radius: 8px" />
+<img src="./../.vitepress/public/graphs/OA/segmentation_demo.png" style="width: 100%; border-radius: 8px" />
 <p style="text-align: center; color: #888; font-size: 0.85em;">Segmentation Result.</p>
 
 
@@ -29,11 +29,11 @@ Clinically, Hip OA is often diagnosed when the joint space narrowing is < 0.2 cm
 
 <div style="display: flex; gap: 15px; margin: 20px 0;">
   <div style="flex: 1; text-align: center;">
-    <img src="/graphs/OA/trandition_good.png" style="border-radius: 8px;" />
+    <img src="./../.vitepress/public/graphs/OA/trandition_good.png" style="border-radius: 8px;" />
     <p style="font-size: 0.8em; color: #3eaf7c; font-weight: bold;">Case of capturing 3 points well.</p>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="/graphs/OA/trandition_bad.png" style="border-radius: 8px;" />
+    <img src="./../.vitepress/public/graphs/OA/trandition_bad.png" style="border-radius: 8px;" />
     <p style="font-size: 0.8em; color: #f66; font-weight: bold;">Unstable point-detection in variant case.</p>
   </div>
 </div>
@@ -43,7 +43,7 @@ Clinically, Hip OA is often diagnosed when the joint space narrowing is < 0.2 cm
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
 
   <div style="flex: 1; min-width: 300px;">
-    <img src="/graphs/OA/trandition_cm.png" style="width: 100%; border-radius: 8px" />
+    <img src="./../.vitepress/public/graphs/OA/trandition_cm.png" style="width: 100%; border-radius: 8px" />
     <p style="text-align: center; font-size: 0.85em; color: #888; margin-top: 8px;">
       Confusion Matrix (Traditional 3-Point)
     </p>
@@ -103,13 +103,13 @@ To overcome the instability of point-based methods, I developed a custom geometr
 * **Clinical Output**: Generates a continuous **Distance Distribution Curve**, allowing MDs to pinpoint the exact angle of maximum joint space narrowing—a level of detail impossible with manual methods.
 
 
-<img src="/graphs/OA/scan_demo.png" style="width: 100%; border-radius: 8px" />
+<img src="./../.vitepress/public/graphs/OA/scan_demo.png" style="width: 100%; border-radius: 8px" />
 <p style="text-align: center; color: #888; font-size: 0.85em;">Solution: 360° Radial Scan (Geometric Robustness).</p>
 
 <div style="display: flex; align-items: flex-start; gap: 20px; flex-wrap: wrap;">
 
   <div style="flex: 1; min-width: 300px;">
-    <img src="/graphs/OA/scan_cm.png" style="width: 100%; border-radius: 8px" />
+    <img src="./../.vitepress/public/graphs/OA/scan_cm.png" style="width: 100%; border-radius: 8px" />
     <p style="text-align: center; font-size: 0.85em; color: #888; margin-top: 8px;">
       Confusion Matrix (Traditional 3-Point)
     </p>
