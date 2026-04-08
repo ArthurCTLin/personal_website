@@ -28,7 +28,7 @@ features:
     details: Leveraging knowledge graphs to enhance retrieval precision and context-aware generation for complex queries.<img src="./graphs/homepage/RAG_demo_vertical.jpg" style="margin-top:10px; border-radius:8px;" alt="Graph RAG">
     link: /projects/rag-system
   - title: AI-Drive Education
-    details: Designing intelligent tutoring systems with reinforcement learning to provide personalized learning paths.
+    details: Designing intelligent tutoring systems with reinforcement learning to provide personalized learning paths.<img src="./graphs/homepage/Teaching_system.png" style="margin-top:10px; border-radius:8px;" alt="Teaching System">
     link: /projects/teaching-system
 ---
 

@@ -161,13 +161,55 @@ To overcome the instability of point-based methods, I developed a custom geometr
 
 ---
 
-## Case 2: Endplate Recognition
+## Case 2: Myelitis & Endplate Recognition
 
-### Object Detection
-### Statistical Integrity
-Beyond Dice scores, I emphasize **statistical stability**. For tasks like Endplate Recognition, I implemented the **Bootstrap Method** to calculate **95% Confidence Intervals (CI)**, ensuring our performance metrics are not just "lucky splits" but statistically sound clinical evidence.
+This case demonstrates a robust object detection pipeline for spinal pathologies, focusing on overcoming the challenges of small-scale medical datasets through rigorous statistical validation.
 
-### Project Portfolio Matrix
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/graphs/myelitis/dataset_statistics.png" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);" alt="Dataset and BBox Statistics">
+  <p style="font-size: 0.9em; color: #888; margin-top: 10px;"> Dataset Distribution: Training and validation sample sizes with bounding box counts.</p>
+</div>
+
+### Detection Performance & Statistical Stability
+To ensure clinical reliability, I implemented the **Bootstrap Method (N=100)** to validate the model's performance. This dual-validation approach showcases both the model's peak potential and its statistical robustness.
+
+#### Peak Performance
+Our optimized framework achieved a high-water mark **mAP50 of 0.813**, demonstrating exceptional localization precision in ideal conditions.
+
+<div style="text-align: center; margin: 15px 0;">
+  <img src="/graphs/myelitis/best_result.png" style="width: 100%; max-width: 600px; border-radius: 8px; border: 1px solid #3eaf7c; box-shadow: 0 4px 12px rgba(62,175,124,0.15);" alt="Peak Performance Metrics">
+  <p style="font-size: 0.85em; color: #888; margin-top: 8px;">Evaluation metrics of the best-performing model iteration.</p>
+</div>
+
+#### Robust Consistency
+The mean performance remains resilient at **mAP50 0.758**, with narrow **95% Confidence Intervals (CI)** across 100 iterations. This proves the model is generalizable and not overfitted to specific data splits.
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0;">
+  <img src="/graphs/myelitis/bootstrapped_metrics_table.png" style="flex: 1; min-width: 300px; border-radius: 8px;" alt="Bootstrapped Mean Metrics and CI">
+  <img src="/graphs/myelitis/bootstrapping_histograms.png" style="flex: 1; min-width: 300px; border-radius: 8px;" alt="Bootstrap Performance Distribution">
+</div>
+
+* **Endplates (AP50: 0.812, 95% CI: 0.798–0.825)**: Consistently meets the high-performance threshold.
+* **Myelitis (AP50: 0.705, 95% CI: 0.688–0.723)**: Demonstrates stable recognition in complex signal environments.
+
+
+---
+
+### Explainability & Visualization
+Building physician trust requires more than just coordinates. I utilized **Heatmap (CAM)** analysis to verify that the model's "attention" aligns with actual radiological features, such as inflammatory markers in the spinal cord.
+
+| **Myelitis Detection (Soft Tissue)** | **Endplate Recognition (Bone Structure)** |
+| :---: | :---: |
+| <img src="/graphs/myelitis/myelitis_heatmap.jpg" style="border-radius: 8px;" alt="Myelitis Heatmap"> | <img src="/graphs/myelitis/endplate_heatmap.jpg" style="border-radius: 8px;" alt="Endplate Heatmap"> |
+| *Focus on inflammatory signals in the spinal cord.* | *Focus on vertebral boundary degenerations.* |
+
+<p style="font-size: 0.9em; color: #888; text-align: center; margin-top: 10px;">
+  Visualizing AI attention: Ensuring radiological alignment for both inflammatory and structural lesions.
+</p>
+
+---
+
+## Project Portfolio Matrix
 | Category | Task | Strategy | Metrics |
 | :--- | :--- | :--- | :--- |
 | **Fracture** | Femoral Neck Fx | 2-Stage: ROI Crop + 3-Class Cls | **AUC 0.960** |
